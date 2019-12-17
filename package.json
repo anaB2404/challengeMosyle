@@ -1,0 +1,28 @@
+{
+  "name": "challengemosyle",
+  "version": "1.0.0",
+  "description": "Challenge da empresa Mosyle para uma vaga de estágio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaB2404/challengeMosyle.git"
+  },
+  "keywords": [
+    "Mosyle",
+    "Challenge",
+    "Estágio"
+  ],
+  "author": "Ana Beatriz Rodrigues Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaB2404/challengeMosyle/issues"
+  },
+  "homepage": "https://github.com/anaB2404/challengeMosyle#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

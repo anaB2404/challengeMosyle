@@ -1,0 +1,63 @@
+#footer {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo>a>img {
+    max-height: 80px;
+}
+.footer-follow {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-follow li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 13px;
+}
+
+.footer-follow li a {
+  display: inline-block;
+  line-height: 50px;
+  padding-right: 10px;
+  text-align: center;
+  border-radius: 3px;
+  color:#FFF;
+}
+
+.footer-copyright p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    color:#868F9B;
+}
+
+.fa-twitter:hover{
+  color: #55acee;
+  /* font-size: 65px; */
+}
+.fa-facebook-square:hover{
+  color: #3b5998;
+  /* font-size: 65px; */
+}
+.fa-instagram:hover{
+  border-radius: 20%;
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+  /* font-size: 65px; */
+}
+.fa-whatsapp:hover{
+  color: #25D366;
+  /* font-size: 65px; */
+}
+.fa-youtube:hover{
+  color: #cd201f;
+  /* font-size: 65px; */
+}
