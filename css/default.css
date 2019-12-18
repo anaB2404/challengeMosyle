@@ -1,8 +1,13 @@
+.desafio{
+  margin-top: 2%;
+}
+
+
 #footer {
     position: relative;
     padding-top: 60px;
     padding-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 55px;
 }
 
 .footer-logo {

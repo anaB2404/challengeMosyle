@@ -8,7 +8,7 @@
     </title>
     <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
 
-    <link rel="stylesheet" href="css/analiseCodigo.css">
+    <link rel="stylesheet" href="css/default.css">
   </head>
   <body>
     <?php
@@ -17,6 +17,9 @@
 
     <section class="desafio">
       <div class="container">
+        <div class="center-align">
+          <h4>Exercício</h4>
+        </div>
         <p>1 - Analise os trechos de código abaixo, escritos em uma linguagem de programação
         hipotética, fazendo uso dos comandos “while-do” (enquanto-faça) e “do-while”
         (faça-enquanto) e supondo que a, b e c foram declaradas anteriormente.</p>
@@ -55,18 +58,18 @@
         <p>Resposta:
           <?php
 
-          $a = 3;
-          $b = 0;
-          $c = 3;
+            $a = 3;
+            $b = 0;
+            $c = 3;
 
-          do{
-            $a = $a - 1;
-            $b = $b + 1;
-            $c = $c + $b;
+            do{
+              $a = $a - 1;
+              $b = $b + 1;
+              $c = $c + $b;
 
-            echo "<br>O valor das letras são: <h6>A: $a</h6> <h6>B: $b</h6> </h6>C: $c</h6>";
-          }while ($c < $a)
-        ?>
+              echo "<br>O valor das letras são: <h6>A: $a</h6> <h6>B: $b</h6> </h6>C: $c</h6>";
+            }while ($c < $a)
+          ?>
       </p>
 
       <h6>Perceba que no 1 código a sintaxe do while está incorreta não existe While do, existe apenas While e Do While, ou seja ao rodar o primeiro código apresentaria um erro.</h6>

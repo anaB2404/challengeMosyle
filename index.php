@@ -49,7 +49,7 @@
                   escrever os valores que ficaram armazenados nas variáveis.</p>
               </div>
               <div class="card-action">
-                <a href="#">Acessar exercício</a>
+                <a href="trocaDeValores.php">Acessar exercício</a>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@
                   carro vendido. Calcule e escreva o salário final do vendedor.</p>
               </div>
               <div class="card-action">
-                <a href="#">Acessar exercício</a>
+                <a href="revendedoraCarros.php">Acessar exercício</a>
               </div>
             </div>
           </div>

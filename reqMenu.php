@@ -14,19 +14,31 @@
       <nav class="blue lighten-1">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="index.php" class="brand-logo">Challenge Mosyle</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="index.php" class="brand-logo">Challenge</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="fas fa-bars fa-2x icon" aria-hidden="true"></i>
+            </a>
+            <ul class="right hide-on-med-and-down">
               <li><a href="index.php">Home</a></li>
               <li><a href="analiseCodigo.php">Análise de Código</a></li>
-              <li><a href="badges.html">Troca de Valores</a></li>
-              <li><a href="collapsible.html">Revendedora de Carros</a></li>
+              <li><a href="trocaDeValores.php">Troca de Valores</a></li>
+              <li><a href="revendedoraCarros.php">Revendedora de Carros</a></li>
               <li><a href="collapsible.html">Cálculo Média</a></li>
             </ul>
           </div>
         </div>
       </nav>
+      <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="analiseCodigo.php">Análise de Código</a></li>
+        <li><a href="trocaDeValores.php">Troca de Valores</a></li>
+        <li><a href="revendedoraCarros.php">Revendedora de Carros</a></li>
+        <li><a href="collapsible.html">Cálculo Média</a></li>
+      </ul>
     </header>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
